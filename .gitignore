@@ -1,0 +1,33 @@
+﻿# ===== Unreal Engine (standard) =====
+Binaries/
+Build/**/*.log
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vscode/
+.idea/
+*.VC.db
+*.opensdf
+*.sdf
+*.suo
+*.xcodeproj/
+*.xcworkspace/
+*.tmp
+*.log
+# ===== AI agent working dirs =====
+.codex/
+.agents/
+
+# ===== 第三方 / 商城 / 官方模板资源 =====
+# 授权限制：这些资源的原始资产不可再分发，故不纳入公开仓库。
+# 使用者需自行从 Epic 商城 / Fab 获取对应资源包后放回 Content/。
+Content/Asian_Village/
+Content/Survival_Character/
+Content/Construction_VOL1/
+Content/Characters/
+Content/ThirdPerson/
+Content/LevelPrototyping/
+Content/Variant_Combat/
+Content/Variant_Platforming/
+Content/Variant_SideScrolling/
