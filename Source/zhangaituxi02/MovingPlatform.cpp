@@ -1,0 +1,29 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+
+#include "MovingPlatform.h"
+
+// Sets default values
+AMovingPlatform::AMovingPlatform()
+{
+ 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	PrimaryActorTick.bCanEverTick = true;
+
+}
+
+// Called when the game starts or when spawned
+void AMovingPlatform::BeginPlay()
+{
+	Super::BeginPlay();
+
+	FVector TestVector = FVector(11.2f, 3.4f, 7.6f);
+	TestVector.X = 2.5f;
+}
+
+// Called every frame
+void AMovingPlatform::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+}
+
