@@ -1,84 +1,33 @@
 # 怪人协会实验室之魔怔九杰 (zhangaituxi02)
 
-> 用 **Unreal Engine 5.8** 做的 3D 游戏工程  C++ 玩法模块 + 原创角色与动画
-> A 3D game project built with Unreal Engine 5.8  C++ gameplay module with original characters and animations.
+English | [中文](README.zh.md)
 
----
+A third-person 3D game prototype built on **Unreal Engine 5.8**, with a C++ runtime module, original characters and animations, UMG interface work and StateTree-driven behaviour logic.
 
-## 中文
+## Play
 
-### 这是什么
+A **Windows x64 playable build**  no Unreal Engine installation required  is published under [Releases](https://github.com/wakeup595626-cmyk/zhangaituxi02/releases). It is split into 11 parts; download all of them and merge:
 
-《怪人协会实验室之魔怔九杰》是一个基于 Unreal Engine 5.8 的第三人称 3D 游戏原型。工程包含 C++ 运行时模块、原创角色模型与动画、UMG 界面，以及一套基于 StateTree 的行为逻辑。
-
-### 怎么跑起来
-
-1. 安装 **Unreal Engine 5.8**（版本必须匹配，见 `zhangaituxi02.uproject` 的 `EngineAssociation`）
-2. 右键 `zhangaituxi02.uproject`  *Generate Visual Studio project files*（需要 VS 2022 + C++ 桌面开发工作负载）
-3. 用 Visual Studio 打开生成的 `.sln` 编译一次（首次编译会生成 `Binaries/` 与 `Intermediate/`）
-4. 双击 `.uproject` 启动编辑器
-
-###  第三方资源未包含在本仓库中
-
-出于**授权限制**（Epic 商城 / Fab 的资产许可不允许再分发原始资源文件），以下资源包**已从仓库排除**，请自行获取后放回对应路径：
-
-| 需要自行获取的资源 | 放回位置 |
-|---|---|
-| `Asian_Village`（亚洲村庄场景） | `Content/Asian_Village/` |
-| `Survival_Character`（生存角色） | `Content/Survival_Character/` |
-| `Construction_VOL1`（建筑资源包） | `Content/Construction_VOL1/` |
-| `Characters`（通用角色资源） | `Content/Characters/` |
-| UE 官方模板（`ThirdPerson`、`LevelPrototyping`、`Variant_*`） | UE 5.8 自带，新建模板项目即可拷入 |
-
-**仓库包含的原创内容**（可直接使用）：`GuoShu`、`GuWu01`、`JiangJun`、`ZhangYuGe`、`FengLaoBan`、`OldLi`、`ShiHai`、`Zhi`、`YanLi`、`XuBuZhang`、`FriendCharacter`、`AiCharacter`、`Audio`、`Input`、`UI`、`MyStuff`、`Generated` 等。
-
-> 缺少第三方资源时，工程仍可编译和打开，但部分场景与角色的引用会显示缺失。
-
-### 目录结构
-
-| 目录 | 说明 |
-|---|---|
-| `Source/` | C++ 运行时模块（`zhangaituxi02`） |
-| `Config/` | 引擎与项目配置（`DefaultEngine.ini` 等） |
-| `Content/` | 资产：原创角色、动画、UMG 界面、关卡 |
-| `Build/` `Tools/` | 构建脚本与 Python 辅助工具 |
-| `zhangaituxi02.uproject` | UE 工程描述文件 |
-
-### 大文件说明
-
-超过 GitHub 100 MB 单文件限制的原创资产（如 `Content/GuoShu/Model_071909/` 下的模型与贴图）通过 **Git LFS** 管理。克隆前请先安装 [Git LFS](https://git-lfs.com/)，否则这些文件只会是几 KB 的指针文件：
-
-```bash
-git lfs install
-git clone https://github.com/wakeup595626-cmyk/zhangaituxi02.git
+```bat
+copy /b part01.bin+part02.bin+part03.bin+part04.bin+part05.bin+part06.bin+part07.bin+part08.bin+part09.bin+part10.bin+part11.bin game.zip
 ```
 
-### 许可证
+Extract the resulting `game.zip` and run the executable inside `Windows/`.
 
-代码与原创美术资源均以 **MIT** 发布，详见 [LICENSE](LICENSE)。
+## Build from source
 
-> **许可范围说明**：MIT 仅覆盖本项目原创的代码与美术资源。第三方商城 / 官方模板资源**不在此许可范围内**（本仓库本就未包含它们），其授权归各自权利方所有。
+1. Install **Unreal Engine 5.8** (must match `EngineAssociation` in `zhangaituxi02.uproject`).
+2. Right-click `zhangaituxi02.uproject`  *Generate Visual Studio project files* (requires Visual Studio 2022 with the C++ desktop workload).
+3. Build once from the generated solution  this produces `Binaries/` and `Intermediate/`.
+4. Double-click the `.uproject` to open the editor.
 
----
+Large original assets (for example the model and textures under `Content/GuoShu/Model_071909/`) are stored with **Git LFS**. Install [Git LFS](https://git-lfs.com/) *before* cloning, otherwise those files will only be small pointer stubs.
 
-## English
+## Third-party assets are not included
 
-### What is this
+For licensing reasons, the raw asset files of third-party packs are **not redistributed** in this repository. Obtain them yourself and restore them to the listed paths:
 
-*Monster Association Lab: The Nine Bewitched* is a third-person 3D game prototype built on Unreal Engine 5.8. It ships a C++ runtime module, original character models and animations, UMG UI, and StateTree-based behaviour logic.
-
-### Getting started
-
-1. Install **Unreal Engine 5.8** (must match `EngineAssociation` in `zhangaituxi02.uproject`)
-2. Right-click `zhangaituxi02.uproject`  *Generate Visual Studio project files* (requires VS 2022 with the C++ desktop workload)
-3. Build once from the generated `.sln` (this produces `Binaries/` and `Intermediate/`)
-4. Double-click the `.uproject` to open the editor
-
-###  Third-party assets are NOT included
-
-For **licensing reasons** (Epic Marketplace / Fab asset licences do not permit redistributing the raw asset files), the following packs were excluded. Obtain them yourself and restore them to the listed paths:
-
-| Asset pack you need to obtain | Restore to |
+| Asset pack | Restore to |
 |---|---|
 | `Asian_Village` | `Content/Asian_Village/` |
 | `Survival_Character` | `Content/Survival_Character/` |
@@ -86,14 +35,42 @@ For **licensing reasons** (Epic Marketplace / Fab asset licences do not permit r
 | `Characters` | `Content/Characters/` |
 | UE built-in template content (`ThirdPerson`, `LevelPrototyping`, `Variant_*`) | Ships with UE 5.8  copy from a new template project |
 
-The repository **does** include all original content: `GuoShu`, `GuWu01`, `JiangJun`, `ZhangYuGe`, `FengLaoBan`, `OldLi`, `ShiHai`, `Zhi`, `YanLi`, `XuBuZhang`, `FriendCharacter`, `AiCharacter`, `Audio`, `Input`, `UI`, `MyStuff`, `Generated`, and more.
+Without them the project still compiles and opens, but some scene and character references will appear missing.
 
-> Without the third-party packs the project still compiles and opens, but some scene and character references will appear missing.
+## Project layout
 
-### Large files
+| Path | Description |
+|---|---|
+| `Source/` | C++ runtime module (`zhangaituxi02`) |
+| `Config/` | Engine and project configuration |
+| `Content/` | Assets: original characters, animations, UMG widgets, levels |
+| `Build/`, `Tools/` | Build scripts and Python helpers |
+| `zhangaituxi02.uproject` | Unreal project descriptor |
 
-Original assets exceeding GitHub's 100 MB per-file limit (e.g. the model and textures under `Content/GuoShu/Model_071909/`) are stored via **Git LFS**. Install [Git LFS](https://git-lfs.com/) before cloning, otherwise those files will only be small pointer stubs.
+## Third-party notices
 
-### License
+See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
-Code and original art assets are released under **MIT**  see [LICENSE](LICENSE). **Third-party marketplace assets are not covered** (and are not included in this repository).
+## Community and support
+
+- Report bugs through [GitHub Issues](https://github.com/wakeup595626-cmyk/zhangaituxi02/issues).
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Citation
+
+```bibtex
+@misc{zhangaituxi02,
+  title={Monster Association Lab: The Nine Bewitched},
+  author={wakeUp595626-cmyk},
+  year={2026},
+  publisher={GitHub},
+  howpublished={\url{https://github.com/wakeup595626-cmyk/zhangaituxi02}},
+}
+```
+
+## License
+
+[MIT](LICENSE)  covering the original code and art assets. Third-party marketplace assets are not covered and are not distributed here.
