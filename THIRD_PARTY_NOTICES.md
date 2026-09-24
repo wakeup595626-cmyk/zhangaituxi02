@@ -14,8 +14,6 @@ The following asset packs are used by the project but are **deliberately not red
 |---|---|
 | `Asian_Village` | `Content/Asian_Village/` |
 | `Survival_Character` | `Content/Survival_Character/` |
-| `Construction_VOL1` | `Content/Construction_VOL1/` |
-| `Characters` | `Content/Characters/` |
 | UE built-in template content (`ThirdPerson`, `LevelPrototyping`, `Variant_*`) | Ships with Unreal Engine |
 
 If you clone this repository you must obtain these packs yourself (or remove the references to them) before the project will be fully functional.

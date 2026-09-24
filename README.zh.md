@@ -31,8 +31,6 @@ copy /b part01.bin+part02.bin+part03.bin+part04.bin+part05.bin+part06.bin+part07
 |---|---|
 | `Asian_Village` | `Content/Asian_Village/` |
 | `Survival_Character` | `Content/Survival_Character/` |
-| `Construction_VOL1` | `Content/Construction_VOL1/` |
-| `Characters` | `Content/Characters/` |
 | UE 官方模板内容（`ThirdPerson`、`LevelPrototyping`、`Variant_*`） | UE 5.8 自带，从新建模板项目拷贝即可 |
 
 缺少它们时工程仍可编译与打开，但部分场景与角色的引用会显示缺失。

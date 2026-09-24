@@ -31,8 +31,6 @@ For licensing reasons, the raw asset files of third-party packs are **not redist
 |---|---|
 | `Asian_Village` | `Content/Asian_Village/` |
 | `Survival_Character` | `Content/Survival_Character/` |
-| `Construction_VOL1` | `Content/Construction_VOL1/` |
-| `Characters` | `Content/Characters/` |
 | UE built-in template content (`ThirdPerson`, `LevelPrototyping`, `Variant_*`) | Ships with UE 5.8 — copy from a new template project |
 
 Without them the project still compiles and opens, but some scene and character references will appear missing.

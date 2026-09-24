@@ -14,8 +14,6 @@
 |---|---|
 | `Asian_Village` | `Content/Asian_Village/` |
 | `Survival_Character` | `Content/Survival_Character/` |
-| `Construction_VOL1` | `Content/Construction_VOL1/` |
-| `Characters` | `Content/Characters/` |
 | UE 官方模板内容（`ThirdPerson`、`LevelPrototyping`、`Variant_*`） | Unreal Engine 自带 |
 
 克隆本仓库后，你需要自行获取这些资源包（或移除对它们的引用），工程才能完全可用。
