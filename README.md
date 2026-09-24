@@ -35,6 +35,9 @@ For licensing reasons, the raw asset files of third-party packs are **not redist
 
 Without them the project still compiles and opens, but some scene and character references will appear missing.
 
+All other assets under `Content/` — including `Construction_VOL1`, `Characters`, `GuoShu`, `GuWu01`, `JiangJun`, `ZhangYuGe`, `FengLaoBan`, `OldLi`, `ShiHai`, `Zhi`, `YanLi`, `XuBuZhang`, `FriendCharacter`, `AiCharacter`, `Audio`, `Input` and `UI` — are original work by the author and **are included in this repository**.
+
+
 ## Project layout
 
 | Path | Description |

@@ -35,6 +35,9 @@ copy /b part01.bin+part02.bin+part03.bin+part04.bin+part05.bin+part06.bin+part07
 
 缺少它们时工程仍可编译与打开，但部分场景与角色的引用会显示缺失。
 
+其余 `Content/` 下的资源 — 包括 `Construction_VOL1`、`Characters`、`GuoShu`、`GuWu01`、`JiangJun`、`ZhangYuGe`、`FengLaoBan`、`OldLi`、`ShiHai`、`Zhi`、`YanLi`、`XuBuZhang`、`FriendCharacter`、`AiCharacter`、`Audio`、`Input`、`UI` 等 — 均为作者原创，**已包含在本仓库中**。
+
+
 ## 目录结构
 
 | 路径 | 说明 |
