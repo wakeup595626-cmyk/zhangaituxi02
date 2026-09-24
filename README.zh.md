@@ -17,7 +17,7 @@ copy /b part01.bin+part02.bin+part03.bin+part04.bin+part05.bin+part06.bin+part07
 ## 从源码构建
 
 1. 安装 **Unreal Engine 5.8**（版本必须与 `zhangaituxi02.uproject` 中的 `EngineAssociation` 一致）。
-2. 右键 `zhangaituxi02.uproject`  *Generate Visual Studio project files*（需要 VS 2022 及 C++ 桌面开发工作负载）。
+2. 右键 `zhangaituxi02.uproject` — *Generate Visual Studio project files*（需要 VS 2022 及 C++ 桌面开发工作负载）。
 3. 用生成的解决方案编译一次会产出 `Binaries/` 与 `Intermediate/`。
 4. 双击 `.uproject` 打开编辑器。
 
@@ -73,4 +73,4 @@ copy /b part01.bin+part02.bin+part03.bin+part04.bin+part05.bin+part06.bin+part07
 
 ## 许可证
 
-[MIT](LICENSE)  覆盖原创代码与美术资源。第三方商城资源不在授权范围内，且未在此分发。
+[MIT](LICENSE) — 覆盖原创代码与美术资源。第三方商城资源不在授权范围内，且未在此分发。

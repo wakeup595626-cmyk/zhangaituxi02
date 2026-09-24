@@ -4,7 +4,7 @@
 
 ## 引擎
 
-**Unreal Engine 5.8**  本项目基于 Unreal Engine 构建。引擎未在本仓库中再分发；其使用受 [Unreal Engine 最终用户许可协议](https://www.unrealengine.com/eula) 约束。
+**Unreal Engine 5.8** — 本项目基于 Unreal Engine 构建。引擎未在本仓库中再分发；其使用受 [Unreal Engine 最终用户许可协议](https://www.unrealengine.com/eula) 约束。
 
 ## 商城与模板资源
 

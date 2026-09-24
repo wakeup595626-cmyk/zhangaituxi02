@@ -4,7 +4,7 @@ The original code and art of this project are distributed under the [MIT](LICENS
 
 ## Engine
 
-**Unreal Engine 5.8**  the project targets Unreal Engine and is built with it. The engine is not redistributed in this repository; using it is governed by the [Unreal Engine End User License Agreement](https://www.unrealengine.com/eula).
+**Unreal Engine 5.8** — the project targets Unreal Engine and is built with it. The engine is not redistributed in this repository; using it is governed by the [Unreal Engine End User License Agreement](https://www.unrealengine.com/eula).
 
 ## Marketplace and template assets
 
@@ -22,7 +22,7 @@ If you clone this repository you must obtain these packs yourself (or remove the
 
 ## Original content
 
-All other assets under `Content/`  including the character models, animations and materials authored for this project  are original work by the author and covered by the project license.
+All other assets under `Content/` — including the character models, animations and materials authored for this project — are original work by the author and covered by the project license.
 
 ## Reporting
 

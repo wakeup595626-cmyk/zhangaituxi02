@@ -6,14 +6,14 @@
 
 ## 可以怎么贡献
 
-- **报告问题**  在 [GitHub Issues](https://github.com/wakeup595626-cmyk/zhangaituxi02/issues) 提交，请附上你的 Unreal Engine 版本、复现步骤与期望结果。
-- **改进文档**  README 同时提供英文与中文，任何一侧的修正都欢迎。
-- **提交 PR**  见下文。
+- **报告问题** — 在 [GitHub Issues](https://github.com/wakeup595626-cmyk/zhangaituxi02/issues) 提交，请附上你的 Unreal Engine 版本、复现步骤与期望结果。
+- **改进文档** — README 同时提供英文与中文，任何一侧的修正都欢迎。
+- **提交 PR** — 见下文。
 
 ## 本地开发
 
 1. 安装 **Unreal Engine 5.8**。
-2. 右键 `zhangaituxi02.uproject`  *Generate Visual Studio project files*。
+2. 右键 `zhangaituxi02.uproject` — *Generate Visual Studio project files*。
 3. 用解决方案编译一次，然后用编辑器打开工程。
 
 `Binaries/`、`Intermediate/`、`Saved/`、`DerivedDataCache/` 均在本地重新生成，刻意不纳入版本管理。

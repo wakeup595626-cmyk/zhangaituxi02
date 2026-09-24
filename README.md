@@ -6,7 +6,7 @@ A third-person 3D game prototype built on **Unreal Engine 5.8**, with a C++ runt
 
 ## Play
 
-A **Windows x64 playable build**  no Unreal Engine installation required  is published under [Releases](https://github.com/wakeup595626-cmyk/zhangaituxi02/releases). It is split into 11 parts; download all of them and merge:
+A **Windows x64 playable build** — no Unreal Engine installation required — is published under [Releases](https://github.com/wakeup595626-cmyk/zhangaituxi02/releases). It is split into 11 parts; download all of them and merge:
 
 ```bat
 copy /b part01.bin+part02.bin+part03.bin+part04.bin+part05.bin+part06.bin+part07.bin+part08.bin+part09.bin+part10.bin+part11.bin game.zip
@@ -17,8 +17,8 @@ Extract the resulting `game.zip` and run the executable inside `Windows/`.
 ## Build from source
 
 1. Install **Unreal Engine 5.8** (must match `EngineAssociation` in `zhangaituxi02.uproject`).
-2. Right-click `zhangaituxi02.uproject`  *Generate Visual Studio project files* (requires Visual Studio 2022 with the C++ desktop workload).
-3. Build once from the generated solution  this produces `Binaries/` and `Intermediate/`.
+2. Right-click `zhangaituxi02.uproject` — *Generate Visual Studio project files* (requires Visual Studio 2022 with the C++ desktop workload).
+3. Build once from the generated solution — this produces `Binaries/` and `Intermediate/`.
 4. Double-click the `.uproject` to open the editor.
 
 Large original assets (for example the model and textures under `Content/GuoShu/Model_071909/`) are stored with **Git LFS**. Install [Git LFS](https://git-lfs.com/) *before* cloning, otherwise those files will only be small pointer stubs.
@@ -33,7 +33,7 @@ For licensing reasons, the raw asset files of third-party packs are **not redist
 | `Survival_Character` | `Content/Survival_Character/` |
 | `Construction_VOL1` | `Content/Construction_VOL1/` |
 | `Characters` | `Content/Characters/` |
-| UE built-in template content (`ThirdPerson`, `LevelPrototyping`, `Variant_*`) | Ships with UE 5.8  copy from a new template project |
+| UE built-in template content (`ThirdPerson`, `LevelPrototyping`, `Variant_*`) | Ships with UE 5.8 — copy from a new template project |
 
 Without them the project still compiles and opens, but some scene and character references will appear missing.
 
@@ -73,4 +73,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-[MIT](LICENSE)  covering the original code and art assets. Third-party marketplace assets are not covered and are not distributed here.
+[MIT](LICENSE) — covering the original code and art assets. Third-party marketplace assets are not covered and are not distributed here.
