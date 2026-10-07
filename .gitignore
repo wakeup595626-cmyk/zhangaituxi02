@@ -18,6 +18,8 @@ Saved/
 # ===== AI agent working dirs =====
 .codex/
 .agents/
+__pycache__/
+*.pyc
 
 # ===== 第三方 / 商城 / 官方模板资源 =====
 # 授权限制：这些资源的原始资产不可再分发，故不纳入公开仓库。

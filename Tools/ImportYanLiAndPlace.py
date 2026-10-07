@@ -10,7 +10,7 @@ ANIMATION_PATH = ANIMATION_DIRECTORY + "/YanLi_ChickenDance_Anim"
 TEXTURE_PATH = MESH_DIRECTORY + "/T_YanLi_BaseColor"
 MATERIAL_PATH = MESH_DIRECTORY + "/M_YanLi"
 
-SOURCE_ROOT = r"D:\Users\25653\Desktop\桌面文件夹\UE动画文件夹\艳丽"
+SOURCE_ROOT = os.environ.get("YANLI_SOURCE_ROOT", r"D:\UE\YanLiAssets")
 MESH_FBX = os.path.join(
     SOURCE_ROOT,
     "Mixamo动作下载（艳丽）",
