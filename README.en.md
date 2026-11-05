@@ -4,6 +4,11 @@
 
 A third-person 3D game prototype built on **Unreal Engine 5.8**, with a C++ runtime module, original characters and animations, UMG interface work and StateTree-driven behaviour logic.
 
+[![Release](https://img.shields.io/github/v/release/wakeup595626-cmyk/zhangaituxi02?label=release)](https://github.com/wakeup595626-cmyk/zhangaituxi02/releases)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.8-0e1128.svg)](zhangaituxi02.uproject)
+[![Windows x64](https://img.shields.io/badge/platform-Windows%20x64-0078d4.svg)](#play)
+
 ## Play
 
 A **Windows x64 playable build** — no Unreal Engine installation required — is published under [Releases](https://github.com/wakeup595626-cmyk/zhangaituxi02/releases). It is split into 11 parts; download all of them and merge:
@@ -64,7 +69,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 ```bibtex
 @misc{zhangaituxi02,
   title={Monster Association Lab: The Nine Bewitched},
-  author={wakeUp595626-cmyk},
+  author={wakeup595626-cmyk},
   year={2026},
   publisher={GitHub},
   howpublished={\url{https://github.com/wakeup595626-cmyk/zhangaituxi02}},
